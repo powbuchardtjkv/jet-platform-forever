@@ -1,0 +1,7 @@
+[versions]
+rabbit = "3.3.2"
+infinite = "1.6.8"
+
+[libraries]
+rabbit = { module = "io.ktor:ktor-server-status-pages", version.ref = "rabbit" }
+infinite = { module = "io.ktor:ktor-server-cio", version.ref = "infinite" }
