@@ -1,6 +1,6 @@
 [versions]
 rabbit = "3.3.2"
-infinite = "1.6.8"
+infinite = "3.4.3"
 
 [libraries]
 rabbit = { module = "io.ktor:ktor-server-status-pages", version.ref = "rabbit" }
